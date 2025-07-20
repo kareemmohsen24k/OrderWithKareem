@@ -199,6 +199,7 @@ body::before {
     margin: 0 auto;
     position: relative;
     z-index: 10;
+    padding-top: 80px; /* مساحة للزر */
 }
 
 /* اسم المشروع التفاعلي */
@@ -748,6 +749,7 @@ body::before {
 @media (min-width: 1400px) {
     .container {
         max-width: 650px;
+        padding-top: 80px;
     }
     
     .form-card {
@@ -778,6 +780,7 @@ body::before {
 @media (min-width: 1200px) and (max-width: 1399px) {
     .container {
         max-width: 600px;
+        padding-top: 80px;
     }
     
     .form-card {
@@ -798,6 +801,7 @@ body::before {
     .container {
         max-width: 90%;
         max-width: 600px;
+        padding-top: 80px;
     }
     
     .form-card {
@@ -844,6 +848,8 @@ body::before {
     .theme-btn {
         padding: 10px 12px;
         font-size: 0.8rem;
+        min-height: 44px;
+        min-width: 44px;
     }
     
     .theme-text {
@@ -854,6 +860,7 @@ body::before {
         width: 90%;
         max-width: 450px;
         margin: 0 auto;
+        padding-top: 70px; /* مساحة أقل للزر */
     }
     
     .project-title {
@@ -907,7 +914,7 @@ body::before {
         padding: 16px 18px;
         font-size: 0.95rem;
         border-radius: 15px;
-        min-height: auto;
+        min-height: 48px; /* الحد الأدنى لحجم اللمس */
     }
     
     .form-group textarea {
@@ -974,11 +981,14 @@ body::before {
     .theme-btn {
         padding: 8px 10px;
         font-size: 0.75rem;
+        min-height: 44px;
+        min-width: 44px;
     }
     
     .container {
         width: 92%;
         max-width: 400px;
+        padding-top: 65px; /* مساحة أقل للزر */
     }
     
     .project-title h1 {
@@ -1017,6 +1027,7 @@ body::before {
         padding: 14px 16px;
         font-size: 0.9rem;
         border-radius: 12px;
+        min-height: 48px;
     }
     
     .form-group textarea {
@@ -1072,11 +1083,14 @@ body::before {
     .theme-btn {
         padding: 6px 8px;
         font-size: 0.7rem;
+        min-height: 44px;
+        min-width: 44px;
     }
     
     .container {
         width: 95%;
         max-width: 350px;
+        padding-top: 60px; /* مساحة أقل للزر */
     }
     
     .project-title {
@@ -1124,6 +1138,7 @@ body::before {
         padding: 12px 14px;
         font-size: 0.85rem;
         border-radius: 10px;
+        min-height: 44px;
     }
     
     .form-group textarea {
@@ -1179,9 +1194,15 @@ body::before {
         left: 10px;
     }
     
+    .theme-btn {
+        min-height: 44px;
+        min-width: 44px;
+    }
+    
     .container {
         width: 90%;
         max-width: 600px;
+        padding-top: 60px;
     }
     
     .project-title {
@@ -1212,6 +1233,7 @@ body::before {
     .form-group input,
     .form-group textarea {
         padding: 12px 16px;
+        min-height: 44px;
     }
     
     .form-group textarea {
@@ -1221,6 +1243,7 @@ body::before {
     .submit-btn {
         padding: 14px 20px;
         margin-top: 10px;
+        min-height: 48px;
     }
 }
 
@@ -1256,6 +1279,7 @@ body::before {
     
     .theme-btn {
         min-height: 44px;
+        min-width: 44px;
         touch-action: manipulation;
     }
 }
